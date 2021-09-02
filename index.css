@@ -1,0 +1,143 @@
+
+body {
+    background: #E5E5E5;
+}
+
+.full-container {
+    position: relative;
+    width: 1152px;
+    height: 1626px;
+    background: #F9FCFC;
+}
+
+.pic-flex {
+}
+
+.ipsum1 {
+
+    position: absolute;
+    width: 513px;
+    height: 168px;
+    left: 551px;
+    top: 301px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #0D0C0C;
+}
+
+.ipsum2 {
+
+    position: absolute;
+    width: 513px;
+    height: 168px;
+    left: 550px;
+    top: 487px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #0D0C0C;
+
+}
+
+.whoareyou {
+    position: absolute;
+    width: 174px;
+    height: 35px;
+    left: 665px;
+    top: 179px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #0D0C0C;
+}
+
+.left {
+    position: absolute;
+    width: 422px;
+    height: 496px;
+    left: 92px;
+    top: 196px;
+}
+
+.right {
+    position: absolute;
+    width: 422px;
+    height: 496px;
+}
+
+.welcome {
+    position: absolute;
+    width: 125px;
+    height: 35px;
+    left: 514px;
+    top: 64px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #000000;
+}
+
+.message-size {
+    margin-top: 10px;
+    width: 663px;
+    height: 160px;
+
+    background: #FFFFFF;
+    border: 1px solid #0D0C0C;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.form-field {
+    padding-left: 20px;
+    margin: 40px;
+}
+
+.contact-us {
+    padding-left: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 59px;
+
+    color: #0D0C0C;
+}
+
+.input-size {
+    margin-top: 10px;
+    width: 663px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #0D0C0C;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.contact-form {
+    position: absolute;
+    width: 852px;
+    height: 657px;
+    left: 151px;
+    top: 789px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
