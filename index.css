@@ -8,6 +8,7 @@ body {
     width: 100%;
     height: 100%;
     font-size: 100%;
+    background-color: pink;
 }
 
 .container {
@@ -138,20 +139,133 @@ body {
     border: 1px solid red;
     width: 80%;
     height: 80%;
-    margin-left: 35px;
-    margin
+    margin-left: 55px;
 }
 
 .inner-item6-left {
     border: 1px solid black;
-    flex: 6;
-    margin-right: 0.1rem;
+    flex: 3;
+    margin-right: rem;
 }
 
 .inner-item6-right {
     border: 1px solid yellow;
+    margin-right: 5rem;
     flex: 5;
 }
 
 .inner-item6 > div > p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.inner-item7 {
+    display: flex
+    flex-direction: column;
+    border: 1px solid blue;
+}
+
+.inner-item7-middle {
+    flex: 2;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    margin: auto 4rem auto 3rem;
+}
+
+.inner-item7-middle > div > img{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.inner-item7-top {
+    flex: 1;
+}
+
+.inner-item7-bottom {
+    flex: 1;
+}
+
+.inner-item7-top > p, .inner-item7-bottom > p{
+    text-align: center;
+    color: white;
+}
+
+.inner-item7-top-1{
+    flex: 2;
+}
+
+.inner-item8 {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+    padding-left: 5rem;
+    background-color: white;
+}
+
+.inner-item8-top, .inner-item8-middle {
+    flex: 1;
+}
+
+.inner-item8-bottom {
+    border: 1px solid black;
+    flex: 2;
+}
+
+.inner-item8 > div > img{
+    width: 90%;
+    height: 90%;
+}
+
+.inner-item8-bottom {
+    margin-right: 15rem;
+
+    border: 1px solid black;
+    flex: 2;
+}
+
+.inner-item8-bottom > p{
+    font-size: 25px;
+}
+
+.inner-item9 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner-item9 > div > img {
+    width: 100%;
+    height: 80%;
+}
+
+.inner-item9-left {
+    align-self: flex-end;
+}
+
+.inner-item9-right {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin-left: 1rem;
+    margin-top: -2rem;
+}
+
+div.space {
+    border: 0.02px solid pink;
+    background-color: pink;
+    margin: -2rem 1rem auto 1rem;
+
+}
+
+.center {
+    text-align: center;
 }
