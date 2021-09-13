@@ -13,14 +13,14 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    border: 1px solid green;
+    border: 1px solid red;
 }
 
 .item {
 }
 
 .banner {
-    border: 1px solid red;
+    border: 1px solid blue;
     background-image: url("images/banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
 }
 
 .inner-item1 {
-    border: 1px solid blue;
+    border: 1px solid green;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -61,25 +61,97 @@ body {
     font-size: 23px;
 }
 
-.inner-item3 {
+
+.inner-item2 {
+    border: 1px solid blue;
+}
+
+.inner-item3, .inner-item4 {
+    border: 1px solid blue;
     display: flex;
     flex-direction: row;
 }
 
-
-.inner-item3 > div > img{
-    width: 420px;
-    height: 440px;
+.inner-item3 > div > p, .inner-item4 > div > p{
+    padding-top: 25rem;
 }
 
 .gallery1 {
+    background-image: url("images/gallery-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
     flex: 1;
 }
 
 .gallery2 {
     flex: 1;
+    background-image: url("images/gallery-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
 }
 
 .gallery3 {
     flex: 1;
+    background-image: url("images/gallery-3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.gallery4 {
+    background-image: url("images/gallery-4.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    flex: 1;
+}
+
+.gallery5 {
+    flex: 1;
+    background-image: url("images/gallery-5.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.gallery6 {
+    flex: 1;
+    background-image: url("images/gallery-6.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.inner-item5 {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-item6 {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner-item6 > div > img {
+    padding: 30px 70px;
+    padding-right: 0;
+    border: 1px solid red;
+    width: 80%;
+    height: 80%;
+    margin-left: 35px;
+    margin
+}
+
+.inner-item6-left {
+    border: 1px solid black;
+    flex: 6;
+    margin-right: 0.1rem;
+}
+
+.inner-item6-right {
+    border: 1px solid yellow;
+    flex: 5;
+}
+
+.inner-item6 > div > p {
 }
