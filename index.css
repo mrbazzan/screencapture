@@ -126,11 +126,46 @@ body {
     align-items: center;
 }
 
+.inner-item5 > div > h1 {
+    color: white;
+    font-size: 5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.inner-item5 > div > p {
+    color: white;
+    font-size: 2rem;
+}
+
+.inner-item5-last {
+    margin-bottom: 50px;
+}
+
+.inner-item5 > div > form > input {
+    border: 1px solid white;
+    border-radius: 10rem;
+    width: 16rem;
+    height: 3rem;
+    color: grey;
+    background: white;
+}
+
+.last-input {
+    border: 1px solid white;
+    border-radius: 10rem;
+    width: 6rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+}
+
 .inner-item6 {
     border: 1px solid blue;
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: white;
 }
 
 .inner-item6 > div > img {
@@ -160,6 +195,11 @@ body {
     line-height: 1;
     letter-spacing: 1px;
     word-spacing: 2px;
+}
+
+.special {
+    color: pink;
+    font-style: italic;
 }
 
 .inner-item7 {
@@ -193,6 +233,11 @@ body {
 .inner-item7-top > p, .inner-item7-bottom > p{
     text-align: center;
     color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .inner-item7-top-1{
@@ -225,13 +270,22 @@ body {
 
 .inner-item8-bottom {
     margin-right: 15rem;
-
+    padding: 2rem;
     border: 1px solid black;
     flex: 2;
 }
 
 .inner-item8-bottom > p{
     font-size: 25px;
+}
+
+.inner-item8-bottom > form > input{
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 10rem;
+    height: 2rem;
+    color: grey;
+    background-color: black;
 }
 
 .inner-item9 {
@@ -244,28 +298,64 @@ body {
 .inner-item9 > div > img {
     width: 100%;
     height: 80%;
+    padding-top: 5rem;
 }
 
 .inner-item9-left {
+    flex: 2;
     align-self: flex-end;
 }
 
 .inner-item9-right {
-    border: 1px solid black;
+    flex: 4;
     display: flex;
     flex-direction: column;
-    padding: 3rem;
-    margin-left: 1rem;
-    margin-top: -2rem;
+    margin-right: 2rem;
 }
 
 div.space {
-    border: 0.02px solid pink;
+    border: 0.02px hidden pink;
     background-color: pink;
-    margin: -2rem 1rem auto 1rem;
+    margin-top: -2rem;
 
 }
 
 .center {
     text-align: center;
+}
+
+.center h1 {
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.arrange {
+}
+
+.arrange input {
+    border-radius: 0;
+    border: 1px solid grey;
+    width: 20rem;
+    height: 2rem;
+    margin-right: 20px;;
+}
+
+.top {
+    margin-top: 1rem;
+}
+
+.top input {
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: black;
+
+}
+
+.last-text {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 1.1rem;
 }
