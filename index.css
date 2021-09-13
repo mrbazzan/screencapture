@@ -14,14 +14,12 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .item {
 }
 
 .banner {
-    border: 1px solid blue;
     background-image: url("images/banner.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,7 +27,6 @@ body {
 }
 
 .inner-item1 {
-    border: 1px solid green;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,7 +45,6 @@ body {
 }
 
 .inner-item1-right{
-    border: 1px solid white;
     background-color: white;
     flex: 3;
     padding-top: 30px;
@@ -62,13 +58,29 @@ body {
     font-size: 23px;
 }
 
-
-.inner-item2 {
-    border: 1px solid blue;
+.inner-item2-1 {
+    font-size: 35px;
+    line-height: 1.5;
+    margin: 5rem 20rem auto 5rem;
+    color: white;
+    font-style: italic;
 }
 
+.dropcap {
+    font-size: 50px;
+    line-height: 1.3em;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.inner-item2-2 {
+    color: white;
+    font-size: 15px;
+    margin: auto 50rem 10rem 5rem;
+}
+
+
 .inner-item3, .inner-item4 {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
 }
@@ -120,7 +132,6 @@ body {
 }
 
 .inner-item5 {
-    border: 1px solid blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,29 +150,30 @@ body {
 }
 
 .inner-item5-last {
+    margin-top: 25px;
     margin-bottom: 50px;
 }
 
 .inner-item5 > div > form > input {
     border: 1px solid white;
     border-radius: 10rem;
-    width: 16rem;
+    width: 15rem;
     height: 3rem;
     color: grey;
     background: white;
+    margin-right: 1rem;
 }
 
-.last-input {
-    border: 1px solid white;
+input#last-input {
+    border: 1px solid black;
     border-radius: 10rem;
-    width: 6rem;
+    width: 9rem;
     height: 3rem;
     color: white;
     background-color: black;
 }
 
 .inner-item6 {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -171,20 +183,17 @@ body {
 .inner-item6 > div > img {
     padding: 30px 70px;
     padding-right: 0;
-    border: 1px solid red;
     width: 80%;
     height: 80%;
     margin-left: 55px;
 }
 
 .inner-item6-left {
-    border: 1px solid black;
     flex: 3;
     margin-right: rem;
 }
 
 .inner-item6-right {
-    border: 1px solid yellow;
     margin-right: 5rem;
     flex: 5;
 }
@@ -200,17 +209,16 @@ body {
 .special {
     color: pink;
     font-style: italic;
+    font-family: 'Dancing Script', cursive;
 }
 
 .inner-item7 {
     display: flex
     flex-direction: column;
-    border: 1px solid blue;
 }
 
 .inner-item7-middle {
     flex: 2;
-    border: 1px solid green;
     display: flex;
     flex-direction: row;
     margin: auto 4rem auto 3rem;
@@ -245,7 +253,6 @@ body {
 }
 
 .inner-item8 {
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -259,7 +266,6 @@ body {
 }
 
 .inner-item8-bottom {
-    border: 1px solid black;
     flex: 2;
 }
 
@@ -271,7 +277,6 @@ body {
 .inner-item8-bottom {
     margin-right: 15rem;
     padding: 2rem;
-    border: 1px solid black;
     flex: 2;
 }
 
@@ -317,7 +322,7 @@ div.space {
     border: 0.02px hidden pink;
     background-color: pink;
     margin-top: -2rem;
-
+    margin-left: 2rem;
 }
 
 .center {
@@ -358,4 +363,8 @@ div.space {
     margin-left: 15rem;
     margin-right: 15rem;
     font-size: 1.1rem;
+}
+
+.fab {
+    margin-left: 2rem;
 }
