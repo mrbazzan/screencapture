@@ -1,0 +1,370 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    background-color: pink;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+}
+
+.banner {
+    background-image: url("images/banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30rem;
+}
+
+.inner-item1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.inner-item1-left{
+    color: white;
+    margin-left: 10rem;
+    flex: 1;
+}
+
+.inner-item1-left h1{
+    font-style: italic;
+    font-size: 6.8rem;
+}
+
+.inner-item1-right{
+    background-color: white;
+    flex: 3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 4rem;
+}
+
+.inner-item1-right p{
+    font-size: 23px;
+}
+
+.inner-item2-1 {
+    font-size: 35px;
+    line-height: 1.5;
+    margin: 5rem 20rem auto 5rem;
+    color: white;
+    font-style: italic;
+}
+
+.dropcap {
+    font-size: 50px;
+    line-height: 1.3em;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.inner-item2-2 {
+    color: white;
+    font-size: 15px;
+    margin: auto 50rem 10rem 5rem;
+}
+
+
+.inner-item3, .inner-item4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.inner-item3 > div > p, .inner-item4 > div > p{
+    padding-top: 25rem;
+}
+
+.gallery1 {
+    background-image: url("images/gallery-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    flex: 1;
+}
+
+.gallery2 {
+    flex: 1;
+    background-image: url("images/gallery-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.gallery3 {
+    flex: 1;
+    background-image: url("images/gallery-3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.gallery4 {
+    background-image: url("images/gallery-4.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    flex: 1;
+}
+
+.gallery5 {
+    flex: 1;
+    background-image: url("images/gallery-5.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.gallery6 {
+    flex: 1;
+    background-image: url("images/gallery-6.jpeg");
+    background-repeat: no-repeat;
+    background-size: 450px;
+}
+
+.inner-item5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inner-item5 > div > h1 {
+    color: white;
+    font-size: 5rem;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.inner-item5 > div > p {
+    color: white;
+    font-size: 2rem;
+}
+
+.inner-item5-last {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.inner-item5 > div > form > input {
+    border: 1px solid white;
+    border-radius: 10rem;
+    width: 15rem;
+    height: 3rem;
+    color: grey;
+    background: white;
+    margin-right: 1rem;
+}
+
+input#last-input {
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 9rem;
+    height: 3rem;
+    color: white;
+    background-color: black;
+}
+
+.inner-item6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+
+.inner-item6 > div > img {
+    padding: 30px 70px;
+    padding-right: 0;
+    width: 80%;
+    height: 80%;
+    margin-left: 55px;
+}
+
+.inner-item6-left {
+    flex: 3;
+    margin-right: rem;
+}
+
+.inner-item6-right {
+    margin-right: 5rem;
+    flex: 5;
+}
+
+.inner-item6 > div > p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 1;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.special {
+    color: pink;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+}
+
+.inner-item7 {
+    display: flex
+    flex-direction: column;
+}
+
+.inner-item7-middle {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    margin: auto 4rem auto 3rem;
+}
+
+.inner-item7-middle > div > img{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.inner-item7-top {
+    flex: 1;
+}
+
+.inner-item7-bottom {
+    flex: 1;
+}
+
+.inner-item7-top > p, .inner-item7-bottom > p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.inner-item7-top-1{
+    flex: 2;
+}
+
+.inner-item8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem;
+    padding-left: 5rem;
+    background-color: white;
+}
+
+.inner-item8-top, .inner-item8-middle {
+    flex: 1;
+}
+
+.inner-item8-bottom {
+    flex: 2;
+}
+
+.inner-item8 > div > img{
+    width: 90%;
+    height: 90%;
+}
+
+.inner-item8-bottom {
+    margin-right: 15rem;
+    padding: 2rem;
+    flex: 2;
+}
+
+.inner-item8-bottom > p{
+    font-size: 25px;
+}
+
+.inner-item8-bottom > form > input{
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 10rem;
+    height: 2rem;
+    color: grey;
+    background-color: black;
+}
+
+.inner-item9 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner-item9 > div > img {
+    width: 100%;
+    height: 80%;
+    padding-top: 5rem;
+}
+
+.inner-item9-left {
+    flex: 2;
+    align-self: flex-end;
+}
+
+.inner-item9-right {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+div.space {
+    border: 0.02px hidden pink;
+    background-color: pink;
+    margin-top: -2rem;
+    margin-left: 2rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.center h1 {
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.arrange {
+}
+
+.arrange input {
+    border-radius: 0;
+    border: 1px solid grey;
+    width: 20rem;
+    height: 2rem;
+    margin-right: 20px;;
+}
+
+.top {
+    margin-top: 1rem;
+}
+
+.top input {
+    border: 1px solid black;
+    border-radius: 10rem;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    background-color: black;
+
+}
+
+.last-text {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-size: 1.1rem;
+}
+
+.fab {
+    margin-left: 2rem;
+}
