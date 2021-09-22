@@ -20,6 +20,25 @@ nav {
 }
 */
 
+
+.u-sheet {
+    margin: 0 auto;
+}
+
+.u-image {
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.u-layout {
+    flex: 1;
+    max-width: 100%;
+}
+
 .item1 {
     background-image: url("images/hero-bg.jpg");
     background-size: cover;
@@ -60,6 +79,14 @@ nav {
     border: 1px solid red;
     background-color: red;
     color: white;
+    text-decoration: none;
+}
+
+.book-now-radius {
+    border-radius: 3px !important;
+}
+
+.book-now-customize {
     margin: 30px auto 60px;
     padding: 16px 36px;
 }
@@ -132,9 +159,12 @@ nav {
     color: red;
 }
 
-.item3-right-layout {
-    flex: 1;
-    max-width: 100%;
+four{
+    min-height: 658px;
+}
+
+.item4-margin {
+    margin: 0 105px;
 }
 
 .item4 {
@@ -142,25 +172,80 @@ nav {
     flex-direction: row;
 }
 
+
 .item4-left {
-    flex: 2
+    border: 1px solid red;
+    flex: 0 0 45%;
+    display: flex;
 }
 
-.gallery3 {
-    background-size: cover;
-    min-height: 658px;
-    background-position: 50% 50%;
-    background-image: url("images/billionphotos1079319min.png");
+.item4-layout1 {
+    padding: 30px 60px;
+}
+
+.item4-layout2 {
+    padding: 30px 40px;
 }
 
 .item4-right {
-    flex: 2
+    flex: 0 0 55%;
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
+}
+
+.gallery3 {
+    min-height: 658px;
+    background-size: cover;
+    background-position: 50% 0%;
+    background-image: url("images/billionphotos1079319min.png");
+}
+
+.text-section-four-top {
+    font-weight: 700;
+}
+
+.item4-right-middle {
+    border: 1px solid red;
+    background-color: red;
+    margin: 30px auto 0 0;
 }
 
 .item4-right-middle {
     border: 1px solid red;
     background-color: red;
     padding: 5px;
+}
+
+.u-text-1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 135px 0 0;
+    color: #104e92 !important;
+}
+
+.item4-book-now-customize {
+    display: table;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.book-now-margin {
+    margin: 20px 0 20px 0;
+    padding: 16px 36px;
+}
+
+.u-text-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    margin: 30px 0 0;
+    line-height: 1.6;
+}
+
+.item4-text {
+    word-wrap: break-word;
 }
