@@ -7,6 +7,10 @@ body {
     font-family: "Roboto", "Arial", "sans-serif";
 }
 
+section {
+    position: relative;
+}
+
 /*
 nav {
     background-color: white;
@@ -39,8 +43,16 @@ nav {
     max-width: 100%;
 }
 
+.u-text, .item4-text {
+    word-wrap: break-word;
+}
+
 .section-margin {
     margin: 0 105px;
+}
+
+u-body {
+    line-height: 1.6;
 }
 
 .item1 {
@@ -145,7 +157,6 @@ nav {
 
 .left-bottom > p{
     font-size: 1rem;
-    line-height: 1.6;
     margin: 1.47rem 0;
 }
 
@@ -240,9 +251,138 @@ four{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
     margin: 30px 0 0;
-    line-height: 1.6;
 }
 
-.item4-text {
-    word-wrap: break-word;
+.item5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item5-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.item5-bottom-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.item5-layout {
+    margin-top: 20px;
+    margin-bottom: 6opx;
+}
+
+.u-text-4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-style: normal;
+    margin: 20px 0 0;
+}
+
+.u-text-3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    font-style: italic;
+    margin: 20px 0 0;
+}
+
+.u-layout-5 {
+    padding: 30px;
+}
+
+.u-text-service {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    font-weight: 700;
+    margin: 60px 831px 0 0;
+}
+
+.six {
+    color: #ffffff;
+    background-color: #104e92;
+}
+
+div.item6::before {
+    margin: 60px 85px;
+}
+
+item6-margin {
+    margin: 60px 85px;
+}
+
+/*
+.item6-margina {
+    margin: 60px 0 60px 85px;
+}
+
+.item6-marginb {
+    margin: 60px 85px 60px 0;
+}
+*/
+.item6 {
+    display: flex;
+    flex-direction: row;
+}
+
+.six > .section-margin {
+    margin: 0 88px;
+}
+
+.item6-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section-6 {
+    border: 15px solid white;
+}
+
+.item6-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.item6-right-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.item6-right-bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+.item6-layout {
+    padding: 10px;
+}
+
+.gallery4 {
+    min-height: 222px;
+    background-image: url("images/frg.jpg");
+}
+
+.gallery5 {
+    min-height: 222px;
+    background-image: url("images/rg.jpg");
+}
+
+.gallery6 {
+    min-height: 222px;
+    background-image: url("images/billionphotos1882993.jpg");
+}
+
+.gallery7 {
+    min-height: 222px;
+    background-image: url("images/billionphotos1882951.jpg");
+}
+
+.u-size-30 {
+    display: flex;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
