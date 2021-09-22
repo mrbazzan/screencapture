@@ -39,6 +39,10 @@ nav {
     max-width: 100%;
 }
 
+.section-margin {
+    margin: 0 105px;
+}
+
 .item1 {
     background-image: url("images/hero-bg.jpg");
     background-size: cover;
@@ -91,9 +95,6 @@ nav {
     padding: 16px 36px;
 }
 
-.three {
-    margin: 3em 10rem;
-}
 
 .item3{
     display: flex;
@@ -161,10 +162,6 @@ nav {
 
 four{
     min-height: 658px;
-}
-
-.item4-margin {
-    margin: 0 105px;
 }
 
 .item4 {
