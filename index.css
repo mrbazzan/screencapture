@@ -7,10 +7,6 @@ body {
     font-family: "Roboto", "Arial", "sans-serif";
 }
 
-section {
-    position: relative;
-}
-
 /*
 nav {
     background-color: white;
@@ -51,7 +47,7 @@ nav {
     margin: 0 105px;
 }
 
-u-body {
+.u-body {
     line-height: 1.6;
 }
 
@@ -305,12 +301,18 @@ four{
     background-color: #104e92;
 }
 
-div.item6::before {
-    margin: 60px 85px;
+.section-six-height {
+    display: flex;
+    min-height: 582px;
 }
 
-item6-margin {
-    margin: 60px 85px;
+.six > .section-margin {
+    margin: 0 88px;
+}
+
+.item6-margin {
+    width: 970px;
+    margin: 60px auto;
 }
 
 /*
@@ -327,19 +329,15 @@ item6-margin {
     flex-direction: row;
 }
 
-.six > .section-margin {
-    margin: 0 88px;
-}
-
 .item6-left {
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-.section-6 {
-    border: 15px solid white;
-}
+/*.section-6 {*/
+/*    border: 15px solid white;*/
+/*}*/
 
 .item6-right {
     display: flex;
