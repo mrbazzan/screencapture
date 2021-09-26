@@ -66,16 +66,30 @@ section, body {
     text-align: center;
 }
 
-.item1 {
+.one {
     background-image: url("images/hero-bg.jpg");
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
-.item1-content {
-    margin: auto 75px;
+.margin {
+    min-height: 767px;
+    width: 1140px;
+}
+
+div.margin::before {
+    content: '';
+    display: table;
+}
+
+.item1-margin {
+    width: 601px;
+    margin: 216px auto 60px 0;
+}
+
+.item1 {
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .item1-content-top {
@@ -93,13 +107,48 @@ section, body {
 }
 
 .two {
-    background-color: #f2f2f2;
     text-align: center;
+    min-height: 532px;
+}
+
+.two-color {
+    color: #111111;
+    background-color: #f2f2f2;
+}
+
+.two > .section-margin {
+    width: 1140px;
 }
 
 .item2 {
-    margin: 0 75px;
-    min-height: 532px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.u-text-sect3-1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    margin: 130px 490px 0;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #999999 !important;
+}
+
+.u-text-sect3-2 {
+    font-weight: 700;
+    font-size: 3.125rem;
+    width: 780px;
+    margin: 20px auto 0;
+    line-height: 1.1;
+}
+
+.u-text-sect3-3{
+    font-size: 1.25rem;
+    font-weight: 300;
+    width: 780px;
+    margin: 30px auto 0;
 }
 
 .book-now {
@@ -118,6 +167,18 @@ section, body {
     padding: 16px 36px;
 }
 
+.three {
+    min-height: 682px;
+}
+
+.three > .section-margin {
+    width: 1140px;
+}
+
+.item3-margin {
+    width: 1014px;
+    margin: 60px auto;
+}
 
 .item3{
     display: flex;
@@ -137,7 +198,7 @@ section, body {
 }
 
 .item3-border {
-    border: 15px solid transparent;
+    border: 15px solid white;
 }
 
 .right-top {
@@ -182,7 +243,8 @@ section, body {
     color: red;
 }
 
-four{
+.four{
+    background-image: url("https://images03.nicepage.com/c461c07a441a5d220e8feb1a/9f710de59576552888227ee6/g.jpg");
     min-height: 658px;
 }
 
@@ -491,4 +553,46 @@ b{
 
 .item7-call-us {
     align-self: flex-start;
+}
+
+.eight-nine {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+div.footer-margin::before {
+    content: '';
+    display: table;
+}
+
+.u-sheet-1 {
+    min-height: 120px;
+}
+
+.footer-margin {
+    width: 1140px;
+}
+
+.footer-text {
+    width: 417px;
+    margin: 49px auto;
+}
+
+.u-small-text {
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.eight-nine > a {
+    color: #abcff7;
+}
+
+.nine {
+    padding: 16px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+p.created-with {
+    display: inline-block;
 }
