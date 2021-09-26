@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Roboto, sans-serif;
 }
 
+section, body {
+    margin: 0;
+}
+
 .u-sheet {
     margin: 0 auto;
 }
@@ -52,6 +56,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .u-body {
     line-height: 1.6;
+}
+
+.u-btn {
+    display: table;
+}
+
+.u-center {
+    text-align: center;
 }
 
 .item1 {
@@ -252,7 +264,7 @@ four{
     margin: 30px 0 0;
 }
 
-.item5 {
+.item5, .item5-bottom-item {
     display: flex;
     flex-direction: column;
 }
@@ -260,11 +272,6 @@ four{
 .item5-bottom {
     display: flex;
     flex-direction: row;
-}
-
-.item5-bottom-item {
-    display: flex;
-    flex-direction: column;
 }
 
 .item5-layout {
@@ -392,4 +399,96 @@ four{
 
 b{
     font-weight: bold;
+}
+
+.seven-section-margin {
+    width: 1140px;
+}
+
+.u-text-seven {
+    text-align: center;
+}
+
+.u-section-seven {
+    min-height: 454px;
+}
+
+.item7 {
+    width: 726px;
+    margin: 70px auto 70px 207px;
+}
+
+.item7-content, .item7-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item7-top {
+    flex: 1;
+    max-width: 100%;
+}
+
+.todo {
+    font-weight: 700;
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+.mission {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 300;
+    margin: 30px 0 0;
+}
+
+.item7-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.item7-bottom-margin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.call-us {
+    background-color: transparent !important;;
+    border: 1px solid #3e3e3e !important;
+    color: #3e3e3e !important;
+}
+
+.u-text-seven {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 0 0 auto;
+    padding: 16px 53px 16px 52px;
+}
+
+.u-seven {
+    padding: 16px 36px;
+}
+
+.u-section-booknow {
+    padding-right: 7px;
+    padding-top: 0;
+    padding-left: 7px;
+}
+
+.u-item7 {
+    display: flex;
+    max-width: 50%;
+}
+
+.item7-book-now {
+    align-self: flex-end;
+}
+
+.item7-call-us {
+    align-self: flex-start;
 }
