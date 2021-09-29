@@ -97,6 +97,7 @@ nav ul {
 .one {
     background-image: url("images/hero-bg.jpg");
     background-position: 50% 0;
+    color: white;
 }
 
 .margin {
@@ -116,9 +117,53 @@ div.margin::before {
 
 .item1 {
     font-family: 'Open Sans',sans-serif;
-    display: flex;
+    display: block;
     align-items: center;
-    color: white;
+}
+
+.painting, .cleaning, .plumbing {
+    flex: 1;
+}
+
+.item1-common {
+    padding: 30px 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.item1-inner {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 0 auto 0 0;
+    display: block;
+}
+
+.item1-image {
+    width: 80px;
+    height: 80px;
+}
+
+.gallery11 {
+    background-image: url("images/paint-brush.svg");
+}
+
+.gallery12 {
+    background-image: url("images/cleaning-bucket.svg");
+}
+
+.gallery13 {
+    background-image: url("images/tap.svg");
+}
+
+.item1-clean {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0 0;
 }
 
 .house-repair {
@@ -132,9 +177,9 @@ div.margin::before {
 }
 
 .u-service {
+    font-family: "Archivo Black";
     font-size: 6rem;
     text-transform: uppercase;
-    font-family: "Archivo Black";
     font-weight: 700;
     margin: 0;
     line-height: 1.1;
@@ -147,7 +192,7 @@ div.margin::before {
 
 .item1-content-middle {
     border: 1px solid white;
-    border-top: 15px solid white;
+    border-top: 11px solid white;
 }
 
 .content-middle {
@@ -199,6 +244,7 @@ div.margin::before {
 }
 
 .u-text-sect3-3{
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
     font-weight: 300;
     width: 780px;
@@ -282,8 +328,10 @@ div.margin::before {
 }
 
 .left-bottom > p{
+    font-family: 'Open Sans',sans-serif;
     font-size: 1rem;
-    margin: 1.47rem 0;
+    margin: 0;
+    width: 372px;
 }
 
 .text {
@@ -291,10 +339,15 @@ div.margin::before {
     font-size: 2.25rem;
 }
 
+.need-help-text {
+    margin: 0;
+}
+
 .text-2 {
     font-weight: 700;
     font-size: 2.05rem;
     color: red;
+    margin: 20px 1px 0;
 }
 
 .four{
@@ -379,6 +432,36 @@ div.margin::before {
 .item5, .item5-bottom-item {
     display: flex;
     flex-direction: column;
+}
+
+.item5-pic-border {
+    background-color: #e71a23;
+    height: 83px;
+    width: 83px;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.item5-pic-border-padding {
+    padding: 18px;
+}
+
+.diag_painting {
+    height: 47px;
+    width: 47px;
+}
+
+.gallery8 {
+    background-image: url("images/painting.svg");
+}
+
+.gallery9 {
+    background-image: url("images/electric.svg");
+}
+
+.gallery10 {
+    background-image: url("images/repair.svg");
 }
 
 .item5-bottom {
