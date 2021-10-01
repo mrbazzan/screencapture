@@ -732,23 +732,18 @@ p.created-with {
     .full-width {
         width: 940px;
     }
-
     .margin {
         min-height: 632px;
     }
-
     .content-header-size {
         min-height: 80px;
     }
-
     .house-repair {
         font-size: 3.625rem;
     }
-
     .u-service {
         font-size: 5.875rem;
     }
-
     .item1-margin {
         width: 577px;
     }
@@ -756,66 +751,52 @@ p.created-with {
         margin-left: 390px;
         margin-right: 390px;
     }
-
     .three {
         min-height: 639px;
     }
-
     .item3-margin {
         width: 100% !important;
         margin-bottom: 30px;
     }
-
     .gallery1, .gallery2 {
         min-height: 380px;
     }
-
     .four {
         min-height: 428px;
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important
     }
-
     .item4-right {
         min-height: 543px;
     }
-
     .u-text-1 {
         font-size: 3.75rem;
     }
-
     .u-text-service {
         margin-right: 631px;
     }
-
     .section-six-height {
         min-height: 568px;
     }
-
     .gallery3 {
         min-height: 543px;
     }
-
     .five {
         min-height: 235px;
     }
-
     .item6-margin {
         width: 940px;
     }
-
     .item6-pic-height-top {
         min-height: 215px;
     }
-
     .item6-pic-height-bottom {
         min-height: 223px;
     }
     .u-section-seven {
         min-height: 429px;
     }
-
     .item7 {
         width: 731px;
         margin-left: 105px;
@@ -835,28 +816,22 @@ p.created-with {
     .full-width {
         width: 720px;
     }
-
     .one {
         background-position: 34.74% 0;
     }
-
     .margin {
         min-height: 423px;
     }
-
     .item1-content-top {
         min-height: 216px;
         padding: 30px 0 0;
     }
-
     .house-repair {
         font-size: 3rem;
     }
-
     .u-service {
         font-size: 5rem;
     }
-
     .item1-margin {
         width: 482px;
     }
@@ -865,7 +840,6 @@ p.created-with {
         margin-right: 0 ;
         margin-left: 0;
     }
-
     .item1-content-middle {
         border-top-width: 9px;
     }
@@ -876,12 +850,10 @@ p.created-with {
     .u-text-sect3-2, .u-text-sect3-3 {
         width: 720px;
     }
-
     .three {
         min-height: 490px;
         display: flex;
     }
-
     .item3 {
         flex-direction: column;
     }
@@ -965,8 +937,107 @@ p.created-with {
     .full-width {
         width: 540px;
     }
+    .one {
+        background-position: 81% 50%;
+    }
+    .margin {
+        min-height: 622px;
+    }
+    .item1-content-top {
+        min-height: 216px;
+        padding: 30px 0 0;
+    }
+    .house-repair {
+        font-size: 3rem;
+    }
+    .u-service {
+        font-size: 5.6rem;
+    }
+    .item1-margin {
+        width: 502px;
+        margin-top: 327px;
+    }
+    .content-middle {
+        height: 9px;
+        margin-right: 0 ;
+        margin-left: 0;
+    }
+    .item1-content-middle {
+        border-top-width: 10px;
+    }
+    div.item1-content-bottom{
+        display: none;
+    }
+    .two {
+        text-align: center;
+        min-height: 532px;
+    }
+    .u-text-sect3-1 {
+        margin: 60px 190px 0;
+    }
+    .u-text-sect3-2, .u-text-sect3-3 {
+        width: 540px;
+    }
+    .three {
+        min-height: 244px;
+        display: flex;
+    }
+    .item3 {
+        flex-direction: column;
+    }
+    .item3-margin {
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .right-top, .left-bottom {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 0;
+    }
+    .item3-border {
+        border-left-width: 0;
+        border-right-width: 0;
+    }
+    .item4 {
+        flex-direction: column;
+    }
+    .four-height {
+        min-height: 570px;
+    }
+    .gallery3 {
+        background-position: 50% 0%;
+        min-height: 693px;
+    }
+    .item4-layout1 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
     .item4-right {
         min-height: 100px;
+    }
+    .item4-layout2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .u-text-1 {
+        font-size: 3.125rem;
+    }
+    .u-text-2 {
+        font-size: 1.125rem;
+    }
+    .item4-right-middle {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .five {
+        min-height: 174px;
+    }
+    .u-text-service {
+        margin-right: 231px;
+    }
+    .item5-bottom {
+        flex-direction: column;
     }
     .u-layout-30 {
         padding-right: 10px;
@@ -978,20 +1049,61 @@ p.created-with {
     .item6-margin {
         width: 540px;
     }
+    .item6 {
+        flex-direction: column;
+    }
+    .item6-left-text {
+        font-size: 4.5rem;
+    }
+    .item6-right-top, .item6-right-bottom {
+        flex-direction: column;
+    }
     .item6-pic-height-top {
         min-height: 512px;
     }
     .item6-pic-height-bottom {
         min-height: 530px;
     }
+    .section-6 {
+        border-right-width: 0;
+        border-left-width: 0;
+    }
+    .u-size-30 {
+        display: flex;
+        flex: 1;
+        max-width: 100%;
+    }
     .u-section-seven {
         min-height: 308px;
+    }
+    .item7 {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     .item7-top {
         min-height: 100px;
     }
+    .item7-bottom-margin {
+        flex-direction: column;
+        align-items: center;
+    }
+    .u-text-seven {
+        padding-right: 55px;
+        padding-left: 55px;
+        margin-right: auto;
+    }
     .u-section-booknow {
         min-height: 100px;
+    }
+    .u-item7 {
+        min-width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .call-us {
+        padding-left: 71px;
+        padding-right: 73px;
     }
 }
 
@@ -999,43 +1111,34 @@ p.created-with {
     .full-width {
         width: 340px;
     }
-
     .one {
         background-position: 81.49% 50%;
     }
-
     .margin {
         min-height: 308px;
     }
-
     .item1-content-top {
         min-height: 216px;
         padding: 30px 0 0;
     }
-
     .house-repair {
         font-size: 1.90rem;
     }
-
     .u-service {
         font-size: 3.725rem;
     }
-
     .item1-margin {
         width: 340px;
         margin-top: 416px;
     }
-
     .content-middle {
         height: 9px;
         margin-right: 0 ;
         margin-left: 0;
     }
-
     .item1-content-middle {
         border-top-width: 9px;
     }
-
     div.item1-content-bottom{
         display: none;
     }
@@ -1053,7 +1156,6 @@ p.created-with {
         min-height: 244px;
         display: flex;
     }
-
     .item3 {
         flex-direction: column;
     }
@@ -1081,7 +1183,6 @@ p.created-with {
         background-position: 50% 50%;
         min-height: 436px;
     }
-
     .item4-layout1 {
         padding-right: 10px;
         padding-left: 10px;
@@ -1128,10 +1229,7 @@ p.created-with {
     .item6-left-text {
         font-size: 3.75rem;
     }
-    .item6-right-top {
-        flex-direction: column;
-    }
-    .item6-right-bottom {
+    .item6-right-top, .item6-right-bottom {
         flex-direction: column;
     }
     .item6-pic-height-top {
