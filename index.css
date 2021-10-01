@@ -103,6 +103,10 @@ nav ul {
     width: 1140px;
 }
 
+.one-extra {
+    display: flex;
+}
+
 .margin {
     min-height: 767px;
 }
@@ -190,10 +194,11 @@ div.margin::before {
 .item1-content-top {
     flex: 1 1 100%;
     padding: 40px 0 0;
+    min-height: 250px;
 }
 
 .item1-content-middle {
-    border: 1px solid white;
+    border: 0 solid white;
     border-top: 11px solid white;
 }
 
@@ -299,12 +304,6 @@ div.margin::before {
     padding: 20px 60px 20px 0;
 }
 
-.image-detail {
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .gallery1 {
     background-image: url("images/billionphotos1882993.jpg");
     min-height: 388px;
@@ -325,7 +324,6 @@ div.margin::before {
     font-family: 'Open Sans',sans-serif;
     font-size: 1rem;
     margin: 0;
-    width: 372px;
 }
 
 .text {
@@ -346,8 +344,11 @@ div.margin::before {
 
 .four{
     background-image: url("images/g.jpg");
-    min-height: 658px;
     margin: 0 auto 0 0;
+}
+
+.four-height {
+    min-height: 658px;
 }
 
 .item4 {
@@ -389,11 +390,8 @@ div.margin::before {
 .item4-right-middle {
     background-color: red;
     margin: 30px auto 0 0;
-}
-
-.item4-right-middle {
-    background-color: red;
     padding: 5px;
+    height: 9px;
 }
 
 .u-text-1 {
@@ -422,6 +420,10 @@ div.margin::before {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
     margin: 30px 0 0;
+}
+
+.five {
+    min-height: 475px;
 }
 
 .item5, .item5-bottom-item {
@@ -496,6 +498,7 @@ div.margin::before {
     margin: 60px 831px 0 0;
 }
 
+
 .six {
     color: #ffffff;
     background-color: #104e92;
@@ -542,16 +545,20 @@ div.margin::before {
     padding: 10px;
 }
 
-.item6-pic-height {
+.item6-pic-height-top {
+    min-height: 222px;
+}
+
+.item6-pic-height-bottom {
     min-height: 230px;
 }
 
 .gallery4 {
-    background-image: url("images/rg.jpg");
+    background-image: url("images/frg.jpg");
 }
 
 .gallery5 {
-    background-image: url("images/frg.jpg");
+    background-image: url("images/rg.jpg");
 }
 
 .gallery6 {
@@ -592,6 +599,7 @@ b{
 }
 
 .u-section-seven {
+    display: flex;
     min-height: 454px;
 }
 
@@ -612,6 +620,7 @@ b{
 }
 
 .todo {
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     margin: 0;
     font-size: 2.25rem;
@@ -731,13 +740,17 @@ p.created-with {
         min-height: 80px;
     }
 
-    .u-image {
-        object-fit: cover;
-        display: block;
-        background-size: cover;
-        background-repeat: no-repeat;
+    .house-repair {
+        font-size: 3.625rem;
     }
 
+    .u-service {
+        font-size: 5.875rem;
+    }
+
+    .item1-margin {
+        width: 577px;
+    }
     .u-text-sect3-1 {
         margin-left: 390px;
         margin-right: 390px;
@@ -763,6 +776,10 @@ p.created-with {
         margin-right: 0 !important
     }
 
+    .u-text-1 {
+        font-size: 3.75rem;
+    }
+
     .u-text-service {
         margin-right: 631px;
     }
@@ -775,14 +792,21 @@ p.created-with {
         min-height: 543px;
     }
 
+    .five {
+        min-height: 235px;
+    }
+
     .item6-margin {
         width: 940px;
     }
 
-    .item6-pic-height {
-        min-height: 223px;
+    .item6-pic-height-top {
+        min-height: 215px;
     }
 
+    .item6-pic-height-bottom {
+        min-height: 223px;
+    }
     .u-section-seven {
         min-height: 429px;
     }
@@ -799,10 +823,119 @@ p.created-with {
 
 
 @media screen and (min-width: 767px) and (max-width: 991px){
-    .page-body {
-        margin-top: 80px;
-    }
-    body {
+    .full-width {
+        width: 720px;
     }
 
+    .one {
+        background-position: 34.74% 0;
+    }
+
+    .margin {
+        min-height: 423px;
+    }
+
+    .item1-content-top {
+        min-height: 216px;
+        padding: 30px 0 0;
+    }
+
+    .house-repair {
+        font-size: 3rem;
+    }
+
+    .u-service {
+        font-size: 5rem;
+    }
+
+    .item1-margin {
+        width: 482px;
+    }
+    .content-middle {
+        height: 9px;
+        margin-right: 0 ;
+        margin-left: 0;
+    }
+
+    .item1-content-middle {
+        border-top-width: 9px;
+    }
+    .u-text-sect3-1 {
+        margin-left: 280px;
+        margin-right: 280px;
+    }
+    .u-text-sect3-2, .u-text-sect3-3 {
+        width: 720px;
+    }
+
+    .three {
+        min-height: 490px;
+        display: flex;
+    }
+
+    .item3 {
+        flex-direction: column;
+    }
+    .item3-margin {
+        width: 100% !important;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .right-top {
+        padding-right: 30px;
+        padding-left: 60px;
+    }
+    .gallery1, .gallery2 {
+        min-height: 380px;
+    }
+    .left-bottom {
+        padding-right: 30px;
+    }
+    .u-text-1 {
+        font-size: 3.125rem;
+    }
+    .item4-right-middle {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .u-text-2 {
+        font-size: 1.125rem;
+    }
+    .four-height {
+        min-height: 301px;
+    }
+    .gallery3 {
+        min-height: 416px;
+    }
+    .u-text-service {
+        margin-right: 411px;
+    }
+    .five {
+        min-height: 174px;
+    }
+    .item6 {
+        flex-direction: column;
+    }
+    .section-six-height {
+        min-height: 924px;
+    }
+    .item6-left-text {
+        font-size: 4.5rem;
+    }
+    .item6-pic-height-top {
+        min-height: 341px;
+    }
+    .item6-pic-height-bottom {
+        min-height: 353px;
+    }
+    .u-section-seven {
+        display: flex;
+        min-height: 429px;
+    }
+    .item7 {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
 }
