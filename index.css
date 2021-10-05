@@ -36,10 +36,6 @@ section, body {
     word-wrap: break-word;
 }
 
-/*.section-margin {*/
-/*    margin: 0 105px;*/
-/*}*/
-
 .u-body {
     line-height: 1.6;
 }
@@ -53,10 +49,10 @@ section, body {
 }
 
 nav ul {
+    background: #f2f2f2;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-image: url("images/g.jpg");
     min-height: 70px;
     overflow: hidden;
     position: fixed;
@@ -65,13 +61,17 @@ nav ul {
 }
 
 .nav {
-    background-image: url("images/g.jpg");
     min-height: 70px;
+    background: #f2f2f2;
 }
 
 #navbar {
     display: flex;
     flex-direction: row;
+}
+
+.cancel-icon > a:hover {
+    background-color: #a8e4f9;
 }
 
 .page-body {
