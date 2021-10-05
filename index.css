@@ -40,6 +40,13 @@ section, body {
     left: 730px;
 }
 
+div.dd {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
 .u-sheet {
     margin: 0 auto;
 }
@@ -115,6 +122,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .one {
